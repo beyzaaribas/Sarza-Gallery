@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/modal.js"></script>
+
+    <title>Sarza Gallery</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                
+               <div class="logo"><a href="index.html"><img src="img/logoo.png" alt=""></a> </div>
+  
+                  
+               <nav>
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="hakkimizda.html">About Us</a></li>
+                       <li><a href="sergiler.html">Exhibition</a></li>
+                       <li><a href="iletisim.html">Contact</a></li>
+                       <li><a href="memnuniyet.html">Satisfaction</a></li>
+                       <li><a href="cafe.html">Cafe</a></li>
+  
+                   </ul>
+               </nav>
+  
+  
+  
+            </div> 
+          </header>
+
+        <main>
+            <div class="slider">
+                <div class="cafe-slider-text">
+                    <figure class="figure-card">
+                        <img class="menu-image" src="https://images.unsplash.com/photo-1586657263857-346c4b712ff5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" width="250" height="250" />
+                        <figcaption>Croissant Sarza</figcaption>
+                        <figcaption>2.25€</figcaption>
+                    </figure>
+                    <figure class="figure-card">
+                        <img class="menu-image" src="https://images.unsplash.com/photo-1570476922354-81227cdbb76c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="" width="250" height="250" />
+                        <figcaption>Taste our delicious desserts</figcaption>
+                        <figcaption>3.25€</figcaption>
+                    </figure>
+                    <figure class="figure-card">
+                        <img class="menu-image" src="https://images.unsplash.com/photo-1583842772421-26a23f024374?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="250" height="250" />
+                        <figcaption>Wine and Cheese</figcaption>
+                        <figcaption>17€</figcaption>
+                    </figure>
+                    <figure class="figure-card">
+                        <img src="https://images.unsplash.com/photo-1601356616077-695728ae17cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="" width="250" height="250" />
+                        <figcaption>Steak Dinner</figcaption>
+                        <figcaption>15€</figcaption>
+                    </figure>
+
+                    <figure class="figure-card">
+                        <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="250" height="250" />
+                        <figcaption>Breakfast</figcaption>
+                        <figcaption>12€</figcaption>
+                    </figure>
+                    <figure class="figure-card">
+                        <img src="https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="" width="250" height="250" />
+                        <figcaption>Our saloon</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <small>&copy 2021 Sarza Gallery All Rights Reserved</small>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+
+
+<script>
+    $('.figure-card').click(function(){
+    $(this).toggleClass("active");
+});
+
+
+
+</script>
+
+<script>
+    $('.figure-card').hover(function(){
+    
+    $($(this), " img").css({"transform":"scale(1.1)"});
+});
+</script> 
+
+
+</html>
